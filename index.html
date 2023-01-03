@@ -1,0 +1,88 @@
+<!-- Link to the video:- https://www.youtube.com/watch?v=4nQ-8FLU56g -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>TipCalculator</title>
+</head>
+<body>
+    <div class="container">
+        <section>
+            <div class="wrapper">
+                <label for="bill" class="lbl">
+                    Bill
+                </label>
+                <div class="input-box">
+                    <span>$</span>
+                    <input type="number" value="0.00" id="bill" class="val">
+                </div>
+            </div>
+            <div class="wrapper">
+                <span class="lbl">Tip</span>
+                <span class="val" id="tip-amount">
+                    $0
+                </span>
+            </div>
+            <hr>
+            <div class="wrapper">
+                <span class="lbl">Total Amount</span>
+                <span class="val" id="total-amount">
+                    $0
+                    this is not the only thing i wanted... but this is surely one of the 
+                    thing i want in life... love... who doesn't need it... who doesn't want it...
+                    i also want to be feel loved... i also want to be feel accepted... but the mindset which i 
+                    have that i'm not accepted already is the worst one... i shouldn't feel that... i should 
+                </span>
+            </div>
+        </section>
+
+        <section>
+            <div class="wrapper">
+                <label for="tip" class="lbl">
+                    Tip %
+                </label>
+                <span id="tip-percent" class="val">
+                    0
+                </span>
+            </div>
+            <input type="range" min="1" id="tip" value="15">
+            <div class="wrapper">
+                <label for="no-of-people" class="lbl">
+                    No. of People
+                </label>
+                <span id="split-num" class="val">
+                    0
+                </span>
+            </div>
+            <input type="range" min="1" max="15" id="no-of-people" value="1">
+        </section>
+        <section>
+            <div class="wrapper">
+                <span class="lbl">
+                    Tip Per Person
+                </span>
+                <span id="tip-per-person" class="val">
+                    $0
+                </span>
+            </div>
+            <div class="wrapper">
+                <span class="lbl">
+                 Total Per Person
+                </span>
+                <span id="total-per-person" class="val">
+                    $0
+                </span>
+            </div>
+        </section>>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
